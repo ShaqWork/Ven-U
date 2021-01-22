@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <style>
+      *
+      {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body
+      {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1,h2,h3,h4,h5,h6
+      {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+      header
+      {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 25px 80px;
+        background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.6) );
+      }
+
+      header .logo
+      {
+        font-size: 28px;
+        font-weight: 700;
+        color: #c24242;
+        float: left;
+      }
+
+      header .menu
+      {
+        float: right;
+        margin-top: 5px;
+      }
+
+      header ul li
+    {
+      display: inline-block;
+    }
+
+      header ul li a
+      {
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+        margin: 0 25px;
+        font-weight: 300;
+        letter-spacing: 1px;
+      }
+
+      header ul li a:hover
+      {
+        color: #c24242;
+      }
+
+      .btn-sign
+      {
+        display: inline-block;
+        padding: 10px 25px;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 10px;
+        background-color:  #c24242;
+      }
+
+      .btn-sign:hover
+      {
+        color: #fff;
+        background-color:  #fff;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="navbar">
+        <div class="logo" href="home">Ven-U</div>
+          <div class="menu">
+            <ul>
+              <li><a href="home">Home</a></li>
+              <li><a href="booking">Book</a></li>
+              <!-- <li><a href="calendar">Calendar</a></li> -->
+              <li><a class="btn-sign" href="signin">Sign In</a></li>
+            </ul>
+          </div>
+      </header>
+    </div>
+  </body>
+</html>
+
